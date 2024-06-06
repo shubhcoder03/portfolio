@@ -129,6 +129,9 @@ a:hover{
     color:gold;
     transform: scale(1.2);
 }
+.dd{
+  color: purple;
+}
 #bottom-container{
     margin-top: 3%;
     margin-left: 42%;
@@ -264,6 +267,47 @@ a:hover{
 .copyright{
     margin-top: 40px;
 }
+#achieve ul{
+  list-style: none;
+  position: relative;
+  left : 20px;
+}
+
+@media screen and (max-width : 600px) {
+  #about{
+    
+    position: absolute;
+    left : 0px;
+    top: 110%;
+  }
+  #edu{
+    margin-top: 180px;
+  }
+  #bottom-container{
+    margin-top: 10%;
+    position: relative;
+    right : 100px;
+  }
+  .copyright{
+    position: relative;
+    right : 30px;
+    margin-bottom: 20px;
+  }
+  #achieve ul{
+    list-style: none;
+    position: relative;
+    left : 20px;
+  }
+  table {
+    border-collapse: separate;
+    border-spacing: 10px 0;
+  }
+  
+  td {
+    padding: 5px 0;
+  }
+}
+
 /* #bottom-container a{
    color:antiquewhite;
    margin-left: 10px;
